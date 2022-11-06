@@ -10,3 +10,11 @@ int secondDigit = num % 10; //78%10=8
 
 if(firstDigit > secondDigit) Console.WriteLine($"наибольшая цифра числа = {firstDigit}");
 else Console.WriteLine($"наибольшая цифра числа {num} = {secondDigit}");
+
+int max = Math.Max(firstDigit, secondDigit);
+Console.WriteLine($"наибольшая цифра числа {num} = {max}");
+
+
+
+
+
